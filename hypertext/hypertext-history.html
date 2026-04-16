@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Short History of Hypertext</title>
+
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        header, nav, main, footer {
+            padding: 20px;
+        }
+
+        nav {
+            background: #ddd;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 40px auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background: #333;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        article {
+            position: relative;
+            width: 50%;
+            padding: 20px 40px;
+        }
+
+        .year {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .left {
+            left: 0;
+            text-align: right;
+        }
+
+        .right {
+            left: 50%;
+        }
+
+        article::before {
+            content: '';
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            background: white;
+            border: 3px solid #333;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .left::before { right: -9px; }
+        .right::before { left: -9px; }
+
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 8px;
+                transform: none;
+            }
+
+            article {
+                width: 100%;
+                left: 0 !important;
+                text-align: left;
+                padding-left: 30px;
+            }
+
+            article::before {
+                left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Short History of Hypertext</h1>
+</header>
+
+<nav aria-label="Breadcrumb">
+    <a href="../index.html">Home</a> ›
+    <a href="../index.html">Hypertext</a> ›
+    <span>Timeline</span>
+</nav>
+
+<main>
+
+<section class="timeline" aria-label="Hypertext timeline">
+
+    <article class="left">
+        <h2 class="year">1945</h2>
+        <p>Vannevar Bush (Science Advisor to President Roosevelt during WW2) proposes "Memex," a conceptual machine to store and link vast amounts of information.</p>
+    </article>
+
+    <article class="right">
+        <h2 class="year">1965</h2>
+        <p>Ted Nelson coins the word "Hypertext" to describe non-linear writing.</p>
+    </article>
+
+    <article class="left">
+        <h2 class="year">1967</h2>
+        <p>Andy van Dam and others build the Hypertext Editing System and FRESS at Brown University.</p>
+    </article>
+
+    <article class="right">
+        <h2 class="year">1968</h2>
+        <p>Doug Engelbart demonstrates the NLS (oN-Line System) at the Fall Joint Computer Conference (the "Mother of All Demos").</p>
+    </article>
+
+    <article class="left">
+        <h2 class="year">1975</h2>
+        <p>ZOG (now KMS) is developed at Carnegie Mellon University (CMU).</p>
+    </article>
+
+    <article class="right">
+        <h2 class="year">1978</h2>
+        <p>The Aspen Movie Map is created at MIT—the first hypermedia videodisc.</p>
+    </article>
+
+    <article class="left">
+        <h2 class="year">1984</h2>
+        <p>Filevision from Telos: a hypermedia database for the Macintosh.</p>
+    </article>
+
+    <article class="right">
+        <h2 class="year">1985</h2>
+        <p>Symbolics Document Examiner (Janet Walker) and InterMedia (Norman Meyrowitz at Brown University).</p>
+    </article>
+
+    <article class="left">
+        <h2 class="year">1985</h2>
+        <p>InterMedia, Brown University, N. Meyrowitz</p>
+    </article>
+
+    <article class="right">
+        <h2 class="year">1986</h2>
+        <p>OWL introduces "Guide," the first widely available hypertext system for personal computers.</p>
+    </article>
+
+    <article class="left">
+        <h2 class="year">1987</h2>
+        <p>Apple introduces HyperCard (Bill Atkinson). The first Hypertext '87 Workshop is held.</p>
+    </article>
+
+    <article class="right">
+        <h2 class="year">1990</h2>
+        <p>ECHT (European Conference on HyperText) marks a major expansion in the field.</p>
+    </article>
+
+</section>
+
+</main>
+
+<footer>
+    <p>
+        Reference:
+        <a href="https://info.cern.ch/hypertext/History.html">Original CERN History Page</a>
+    </p>
+    <p>
+        <a href="https://github.com/MarkYoung4889/ite170cern/">
+            To Github Page
+        </a>
+    </p>
+</footer>
+
+</body>
+</html>

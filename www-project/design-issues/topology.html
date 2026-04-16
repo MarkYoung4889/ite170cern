@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperText Design Issues: Topology</title>
+
+    <style>
+        html, body {
+            background: white !important;
+            color: black !important;
+        }
+
+        * {
+            color: black !important;
+        }
+
+        a {
+            color: blue !important;
+        }
+
+        details {
+            margin-bottom: 1rem;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Topology</h1>
+
+    <nav aria-label="breadcrumb">
+        <a href="../../index.html">Home</a> &gt;
+        <a href="../overview.html">WWW Project</a> &gt;
+        <a href="overview.html">Design Issues</a> &gt;
+        Topology
+    </nav>
+</header>
+
+<main>
+
+<p>
+Here are a few questions about the underlying connectivity of a hypertext web.
+</p>
+
+<details>
+    <summary>Are links two- or multi-ended?</summary>
+    <p>
+        The term "link" normally indicates with two ends. Variations of this are links with multiple sources and/or multiple destinations, and constructs which relate more than two anchors. The latter map onto logic description systems, predicate calculus, etc. See the "Aquanet" system from Xerox PARC - paper at HT91). This is a natural step from hypertext whose links are typed with semantic content.
+    </p>
+</details>
+
+<details>
+    <summary>Should the links be monodirectional or bidirectional?</summary>
+    <p>
+        If they are bidirectional, a link always exists in the reverse direction. A disadvantage is constraint on authors, but an advantage is automatic inverse relationships.
+    </p>
+
+    <p>
+        KMS and hypercard have one-way links; Enquire has two-way links.
+    </p>
+
+    <p>
+        See also:
+        <a href="../../about/Private%20overlaid%20web.html">Private overlaid web</a>,
+        <a href="../../about/Generic%20Links.html">Generic Links</a>.
+    </p>
+
+    <p>
+        See <a href="building-back-links.html">Building Back-links</a>.
+    </p>
+</details>
+
+<details>
+    <summary>Should anchors have more than one link?</summary>
+    <p>
+        There is a design issue in whether one anchor may lead to many links...
+        <a href="../../about/people/people.html#groff">JFG</a> disagrees.
+    </p>
+</details>
+
+<details>
+    <summary>Should links be typed?</summary>
+    <p>
+        A typed link carries semantic information.
+        See <a href="link-types.html">list of some types</a>.
+    </p>
+
+    <p>
+        (<a href="../../about/people/people.html#groff">JFG</a> and TBL discussion)
+    </p>
+
+    <p>
+        Link typing helps with
+        <a href="navigation-overview.html">graphical overviews</a>
+        and <a href="../../about/automatic-tracing.html">automatic tracing</a>.
+    </p>
+</details>
+
+<details>
+    <summary>Should links contain ancillary information?</summary>
+    <p>
+        Discussion about whether links should contain metadata such as authorship or comments.
+    </p>
+</details>
+
+<details>
+    <summary>Should a link contain preview information?</summary>
+    <p>
+        Preview information may be cached or included by the author, but is not required.
+    </p>
+</details>
+
+</main>
+
+<footer>
+    <p>HyperText Design Issues - Topology</p>
+
+    <p>
+        <a href="https://MarkYoung4889.github.io/ite170cern/">
+            My GitHub Pages
+        </a>
+    </p>
+</footer>
+
+</body>
+</html>
