@@ -115,8 +115,8 @@ student-cernsite-archive/
 ┃ ┃ ┃ ┗ versioning.html
 ┃ ┃ ┣ proposal.html
 ┃ ┃ ┣ www-project-history.html
-┃ ┃ ┣ www-project-index.html
+┃ ┃ ┣ www-project-www-project-index.html
 ┃ ┃ ┣ www-project-overview.html
 ┃ ┃ ┣ www-project-presentation.html
 ┃ ┃ ┗ www-project-todo.html
-  ┗ index.html
+  ┗ www-project-index.html
