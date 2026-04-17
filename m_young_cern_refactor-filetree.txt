@@ -1,122 +1,122 @@
-student-cernsite-archive/
-┗ student-cernsite/
-  ┣ about/
-┃ ┃ ┣ people/
-┃ ┃ ┃ ┣ groff.html
-┃ ┃ ┃ ┣ pellow.html
-┃ ┃ ┃ ┗ people.html
-┃ ┃ ┣ executive-summary.html
-┃ ┃ ┗ policy.html
-  ┣ assets/
-┃ ┃ ┗ css/
-┃ ┃   ┣ cernsite-base.css
-┃ ┃   ┣ cernsite-index.css
-┃ ┃   ┣ cernsite-page.css
-┃ ┃   ┗ cernsite-timeline.css
-  ┣ book/
-┃ ┃ ┗ w3-book.html
-  ┣ community/
-┃ ┃ ┣ events/
-┃ ┃ ┃ ┣ seminars/
-┃ ┃ ┃ ┃ ┗ computer-seminar.html
-┃ ┃ ┃ ┣ conferences.html
-┃ ┃ ┃ ┗ timetable.html
-┃ ┃ ┣ newsgroups.html
-┃ ┃ ┣ nov-1992.html
-┃ ┃ ┗ sep-1992.html
-  ┣ hypertext/
-┃ ┃ ┣ hypermedia.html
-┃ ┃ ┣ hypertext-history.html
-┃ ┃ ┣ hypertext-response.html
-┃ ┃ ┣ hypertext-terms.html
-┃ ┃ ┣ README-distributed-code.html
-┃ ┃ ┗ xanadu.html
-  ┣ mark-up/
-┃ ┃ ┣ html/
-┃ ┃ ┃ ┣ html-formatting.html
-┃ ┃ ┃ ┗ html-tags.html
-┃ ┃ ┣ markup-bnf.html
-┃ ┃ ┣ markup.html
-┃ ┃ ┣ sgml.html
-┃ ┃ ┗ text.html
-  ┣ protocols/
-┃ ┃ ┣ http/
-┃ ┃ ┃ ┣ http-implementation.html
-┃ ┃ ┃ ┗ http-protocol.html
-┃ ┃ ┗ relevant-protocols.html
-  ┣ references/
-┃ ┃ ┗ bibliography.html
-  ┣ resources/
-┃ ┃ ┣ browser-help.html
-┃ ┃ ┗ help.html
-  ┣ software/
-┃ ┃ ┣ daemon/
-┃ ┃ ┃ ┣ admin/
-┃ ┃ ┃ ┃ ┣ installation.html
-┃ ┃ ┃ ┃ ┗ user-guide.html
-┃ ┃ ┃ ┣ dev/
-┃ ┃ ┃ ┃ ┣ daemon-bugs.html
-┃ ┃ ┃ ┃ ┣ daemon-internals.html
-┃ ┃ ┃ ┃ ┗ features.html
-┃ ┃ ┃ ┣ w3-server-overview.html
-┃ ┃ ┃ ┗ w3-server-status.html
-┃ ┃ ┣ line-mode/
-┃ ┃ ┃ ┣ defaults/
-┃ ┃ ┃ ┃ ┣ command-line.html
-┃ ┃ ┃ ┃ ┣ commands.html
-┃ ┃ ┃ ┃ ┗ quick-guide.html
-┃ ┃ ┃ ┣ linemode-browser-status.html
-┃ ┃ ┃ ┣ linemode-browser.html
-┃ ┃ ┃ ┣ more-info.html
-┃ ┃ ┃ ┗ users-guide.html
-┃ ┃ ┗ w3-software.html
-  ┣ standards/
+cern_refactor_lab/
+┣ about/
+┃ ┣ people/
+┃ ┃ ┣ groff.html
+┃ ┃ ┣ pellow.html
+┃ ┃ ┗ people.html
+┃ ┣ executive-summary.html
+┃ ┗ policy.html
+┣ assets/
+┃ ┗ css/
+┃   ┣ cernsite-base.css
+┃   ┣ cernsite-index.css
+┃   ┣ cernsite-page.css
+┃   ┗ cernsite-timeline.css
+┣ book/
+┃ ┗ w3-book.html
+┣ community/
+┃ ┣ events/
+┃ ┃ ┣ seminars/
+┃ ┃ ┃ ┗ computer-seminar.html
+┃ ┃ ┣ conferences.html
+┃ ┃ ┗ timetable.html
+┃ ┣ newsgroups.html
+┃ ┣ nov-1992.html
+┃ ┗ sep-1992.html
+┣ design-issues/
+┃ ┣ building-back-links.html
+┃ ┣ document-formats.html
+┃ ┣ document-naming.html
+┃ ┣ link-types.html
+┃ ┣ navigation-overview.html
+┃ ┣ overview.html
+┃ ┣ topology.html
+┃ ┗ versioning.html
+┣ hypertext/
+┃ ┣ hypermedia.html
+┃ ┣ hypertext-history.html
+┃ ┣ hypertext-response.html
+┃ ┣ hypertext-terms.html
+┃ ┣ README-distributed-code.html
+┃ ┗ xanadu.html
+┣ mark-up/
+┃ ┣ html/
+┃ ┃ ┣ html-formatting.html
+┃ ┃ ┗ html-tags.html
+┃ ┣ markup-bnf.html
+┃ ┣ markup.html
+┃ ┣ sgml.html
+┃ ┗ text.html
+┣ protocols/
+┃ ┣ http/
+┃ ┃ ┣ http-implementation.html
+┃ ┃ ┗ http-protocol.html
+┃ ┗ relevant-protocols.html
+┣ references/
+┃ ┗ bibliography.html
+┣ resources/
+┃ ┣ browser-help.html
+┃ ┗ help.html
+┣ software/
+┃ ┣ daemon/
+┃ ┃ ┣ admin/
+┃ ┃ ┃ ┣ installation.html
+┃ ┃ ┃ ┗ user-guide.html
+┃ ┃ ┣ dev/
+┃ ┃ ┃ ┣ daemon-bugs.html
+┃ ┃ ┃ ┣ daemon-internals.html
+┃ ┃ ┃ ┗ features.html
+┃ ┃ ┣ w3-server-overview.html
+┃ ┃ ┗ w3-server-status.html
+┃ ┣ line-mode/
+┃ ┃ ┣ defaults/
+┃ ┃ ┃ ┣ command-line.html
+┃ ┃ ┃ ┣ commands.html
+┃ ┃ ┃ ┗ quick-guide.html
+┃ ┃ ┣ linemode-browser-status.html
+┃ ┃ ┣ linemode-browser.html
+┃ ┃ ┣ more-info.html
+┃ ┃ ┗ users-guide.html
+┃ ┗ w3-software.html
+┣ standards/
+┃ ┗ overview.html
+┣ support/
+┃ ┣ faq/
+┃ ┃ ┣ faq-list.html
+┃ ┃ ┣ getting-started.html
+┃ ┃ ┗ no-internet.html
+┃ ┗ servers/
+┃   ┣ available-servers.html
+┃   ┣ server.html
+┃   ┗ wais-and-gopher.html
+┣ technical/
+┃ ┣ addressing/
+┃ ┃ ┣ protocol-addressing/
+┃ ┃ ┃ ┣ file-addressing.html
+┃ ┃ ┃ ┗ http-addressing.html
+┃ ┃ ┗ syntax-addressing/
+┃ ┃   ┣ naming-schemes.html
+┃ ┃   ┣ notation.html
+┃ ┃   ┣ relative-naming.html
+┃ ┃   ┣ relative.html
+┃ ┃   ┣ search.html
+┃ ┃   ┣ url-escape-characters.html
+┃ ┃   ┗ w3-naming.html
+┃ ┣ provider/
+┃ ┃ ┣ etiquette.html
+┃ ┃ ┣ information-provider.html
 ┃ ┃ ┗ overview.html
-  ┣ support/
-┃ ┃ ┣ faq/
-┃ ┃ ┃ ┣ faq-list.html
-┃ ┃ ┃ ┣ getting-started.html
-┃ ┃ ┃ ┗ no-internet.html
-┃ ┃ ┗ servers/
-┃ ┃   ┣ available-servers.html
-┃ ┃   ┣ server.html
-┃ ┃   ┗ wais-and-gopher.html
-  ┣ technical/
-┃ ┃ ┣ addressing/
-┃ ┃ ┃ ┣ protocol-addressing/
-┃ ┃ ┃ ┃ ┣ file-addressing.html
-┃ ┃ ┃ ┃ ┗ http-addressing.html
-┃ ┃ ┃ ┗ syntax-addressing/
-┃ ┃ ┃   ┣ naming-schemes.html
-┃ ┃ ┃   ┣ notation.html
-┃ ┃ ┃   ┣ relative-naming.html
-┃ ┃ ┃   ┣ relative.html
-┃ ┃ ┃   ┣ search.html
-┃ ┃ ┃   ┣ url-escape-characters.html
-┃ ┃ ┃   ┗ w3-naming.html
-┃ ┃ ┣ provider/
-┃ ┃ ┃ ┣ etiquette.html
-┃ ┃ ┃ ┣ information-provider.html
-┃ ┃ ┃ ┗ overview.html
-┃ ┃ ┣ coding-standards.html
-┃ ┃ ┣ related-products.html
-┃ ┃ ┗ technical-details.html
-  ┣ tools/
-┃ ┃ ┗ overview.html
-  ┣ www-project/
-┃ ┃ ┣ design-issues/
-┃ ┃ ┃ ┣ building-back-links.html
-┃ ┃ ┃ ┣ document-formats.html
-┃ ┃ ┃ ┣ document-naming.html
-┃ ┃ ┃ ┣ link-types.html
-┃ ┃ ┃ ┣ navigation-overview.html
-┃ ┃ ┃ ┣ overview.html
-┃ ┃ ┃ ┣ topology.html
-┃ ┃ ┃ ┗ versioning.html
-┃ ┃ ┣ proposal.html
-┃ ┃ ┣ www-project-history.html
-┃ ┃ ┣ www-project-www-project-index.html
-┃ ┃ ┣ www-project-overview.html
-┃ ┃ ┣ www-project-presentation.html
-┃ ┃ ┗ www-project-todo.html
-  ┗ www-project-index.html
+┃ ┣ coding-standards.html
+┃ ┣ related-products.html
+┃ ┗ technical-details.html
+┣ tools/
+┃ ┗ overview.html
+┣ www-project/
+┃ ┣ proposal.html
+┃ ┣ www-project-history.html
+┃ ┣ www-project-overview.html
+┃ ┣ www-project-presentation.html
+┃ ┗ www-project-todo.html
+┣ index.html
+┣ m_young_cern_refactor-filetree.txt
+┗ www-project-index.html
